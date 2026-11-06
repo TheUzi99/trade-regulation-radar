@@ -1,0 +1,17 @@
+{
+  "_note": "Feed URLs marked verify=true are checked on the first GitHub Actions run; a failing source is reported, never silently dropped.",
+  "sources": [
+    {"id": "opensanctions-eu-fsf", "name": "EU financial sanctions (consolidated list)", "kind": "csv", "jurisdiction": "EU",
+     "url": "https://data.opensanctions.org/datasets/latest/eu_fsf/targets.simple.csv", "key": "id", "verify": true,
+     "licence": "CC BY-NC 4.0 (OpenSanctions); non-commercial use only", "topic": "sanctions"},
+    {"id": "opensanctions-eu-map", "name": "EU sanctions map (non-asset-freeze measures)", "kind": "csv", "jurisdiction": "EU",
+     "url": "https://data.opensanctions.org/datasets/latest/eu_sanctions_map/targets.simple.csv", "key": "id", "verify": true,
+     "licence": "CC BY-NC 4.0 (OpenSanctions); non-commercial use only", "topic": "sanctions"},
+    {"id": "eurlex-oj-l", "name": "EUR-Lex Official Journal L series", "kind": "feed", "jurisdiction": "EU",
+     "url": "", "verify": true, "licence": "EU reuse policy, Commission Decision 2011/833/EU; cite source", "topic": "legislation",
+     "keywords": ["sanction", "restrictive measures", "Russia", "Belarus", "carbon border", "CBAM", "customs", "tariff", "Türkiye", "Turkey", "Kazakhstan", "Uzbekistan", "dual-use", "export"]},
+    {"id": "commission-press", "name": "European Commission press releases", "kind": "feed", "jurisdiction": "EU",
+     "url": "", "verify": true, "licence": "EU reuse policy, Commission Decision 2011/833/EU; cite source", "topic": "policy",
+     "keywords": ["sanction", "trade", "tariff", "CBAM", "Türkiye", "Turkey", "Central Asia", "Russia", "Ukraine", "Middle Corridor"]}
+  ]
+}
